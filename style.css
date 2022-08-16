@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  color: white;
   font-family: Roboto, sans-serif;
   font-size: 16px;
+  text-align: center;
+  
 }
 
 img {
-  width: 200px;
+  max-width: 400px;
 }
 
 button {
@@ -19,7 +20,8 @@ button {
 }
 
 .header, .herobox, .footer {
-    background-color: #1f2937;
+  color: white;
+  background-color: #1f2937;
 }
 
 .header {
@@ -43,9 +45,37 @@ ul {
 
 }
 
-.infobox {
+.herobox {
+  display: flex;
+  justify-content: center;
   color: black;
+  padding: 32px;
 }
+
+.infotitle {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 16px;
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 16px;
+  gap: 32px;
+  
+}
+
+img.info {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.info {
+  max-width: 200px;
+} 
 
 .quotebox {
   background-color: #e5e7eb;
